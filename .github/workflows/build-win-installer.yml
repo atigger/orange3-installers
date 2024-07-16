@@ -17,7 +17,7 @@ jobs:
       REPO: https://github.com/biolab/orange3.git
       BUILD_BRANCH: master
       BUILD_COMMIT: FETCH_HEAD
-      BUILD_LOCAL: 1
+      BUILD_LOCAL: 3.36.2
 
       PYTHONFAULTHANDLER: 1
       PIP_DISABLE_PIP_VERSION_CHECK: 1
