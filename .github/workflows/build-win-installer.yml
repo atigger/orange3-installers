@@ -14,7 +14,7 @@ jobs:
     runs-on:  windows-2019
     timeout-minutes: 30
     env:
-      REPO: https://github.com/biolab/orange3.git
+      REPO: https://github.com/atigger/orange3.git
       BUILD_BRANCH: master
       BUILD_COMMIT: FETCH_HEAD
       BUILD_LOCAL: 3.36.2
