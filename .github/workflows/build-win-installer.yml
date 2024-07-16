@@ -15,9 +15,9 @@ jobs:
     timeout-minutes: 30
     env:
       REPO: https://github.com/atigger/orange3.git
-      BUILD_BRANCH: master
+      BUILD_BRANCH: main
       BUILD_COMMIT: FETCH_HEAD
-      BUILD_LOCAL: 3.36.2
+      BUILD_LOCAL: 1
 
       PYTHONFAULTHANDLER: 1
       PIP_DISABLE_PIP_VERSION_CHECK: 1
